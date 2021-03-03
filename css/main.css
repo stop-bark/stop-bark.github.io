@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    color: white;
+    font-family: 'Fredoka One';
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+    background: url('../assets/background.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contentsCenter {
+    position: absolute;
+    top: 42%;
+    left: 39%;
+    text-align: center;
+    margin: auto;
+}
+
+.contentsCenter:hover {
+    cursor: default;
+}
+.contentsCenter::selection {
+    cursor: default;
+    text-decoration: none;
+}
+
+#Text {
+    font-size: 100px;
+    -webkit-text-stroke: 1px #4b4c5e;
+}
+
+#Social > a {
+    left: 100%;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#Social > a > i {
+    color: rgba(87, 88, 94, 0.6);
+}
+
+#Social > a > i:hover {
+    color: hsl(36deg 10% 90%);
+}
