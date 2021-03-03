@@ -1,7 +1,38 @@
-<meta property="og:site_name" content="Stop bark!">
-<meta property="og:url" content="https://stop-bark.club">
-<meta property="og:title" content="Stop bark!">
-<meta property="og:description" content="We don't support you barking! Stop!">
-<meta property="og:type" content="website">
-<meta name="og:image" itemprop="image" content="http://stop-bark.club/images/shibe.jpg">
-test
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/1696f1f330.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='./CSS/main.css'>
+    <title> =- stop bark! -=</title>
+    <meta property="og:site_name" content="Stop bark!">
+    <meta property="og:url" content="https://stop-bark.club">
+    <meta property="og:title" content="no bark!!!!">
+    <meta property="og:description" content="We don't support you barking! Stop!">
+    <meta property="og:type" content="website">
+    <meta name="og:image" itemprop="image" content="./Assets/shibe.jpg">
+</head>
+
+<body>
+    <div class='contentsCenter'>
+        <h1 id='Text'>imagine</h1>
+        <div id='Social'>
+            <a href="https://discord.gg/r6kjQnG9jX" target='_blank'>
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://github.com/stop-bark" target='_blank'>
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+    <audio id="playAudio">
+        <source src="./Assets/till-the-sun-comes.mp3">
+    </audio>
+    <script>
+        var audio = document.getElementById('playAudio');
+        audio.volume = 0.5;
+        window.onclick = (ev) => audio.play();
+    </script>
+</body>
+
+</html>
