@@ -64,5 +64,5 @@ body {
 
 #Social > a > i:hover {
     color: hsl(36deg 10% 90%);
-    animation: scalein 1s linear infinite;
+    animation: scalein 0.3s linear;
 }
