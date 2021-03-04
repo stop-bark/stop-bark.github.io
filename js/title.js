@@ -11,7 +11,7 @@ async function start() {
 
       loop += char;
       window.document.title = loop;
-      await sleep(750);
+      await sleep(500);
     }
   }
 }
