@@ -32,7 +32,7 @@
 }
 
 body {
-    background: url('../images/background.png') no-repeat center fixed;
+    background: url('../images/background2.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,8 +41,8 @@ body {
 
 .contentsCenter {
     position: absolute;
-    top: 42%;
-    left: 39%;
+    top: 0.1%;
+    left: 35%;
     text-align: center;
     margin: auto;
 }
