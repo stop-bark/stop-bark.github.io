@@ -9,6 +9,15 @@
     }
 }
 
+@keyframes scaleout {
+    0% {
+        transform: scale(1.5)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
 * {
     color: white;
     font-family: 'Fredoka One';
@@ -60,9 +69,11 @@ body {
 
 #Social > a > i {
     color: rgba(87, 88, 94, 0.6);
+    animation: scaleout 0.2s
 }
 
 #Social > a > i:hover {
     color: hsl(36deg 10% 90%);
-    animation: scalein 0.2s ease-in-out;
+    animation: scalein 0.2s;
+    animation-fill-mode: forwards;
 }
