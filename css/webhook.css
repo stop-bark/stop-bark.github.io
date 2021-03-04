@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 * {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-family: 'Fredoka One';
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 body {
@@ -42,4 +50,5 @@ a, a:visited {
     margin-top: 25px;
     padding: 15px;
     border: 2px solid #000000c9;
+    color: black;
 }
