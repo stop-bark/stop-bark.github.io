@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender</title>
+  <link rel="stylesheet" href="./css/webhook.css" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Link:</p><input type='text' id="link" placeholder="Paste webhook link here.">
+        <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the webhook here.">
+        <p>Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL.">
+        <p>Content:</p><input type="text" id="content" placeholder="Type the content of the webhook here.">
+        <br>
+        <button id="btn">Send</button>
+        <center>
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+ <script src="./js/jquery.js"></script>
+ <script src="./js/webhook-sender.js"></script>
+  </body>
+</html>

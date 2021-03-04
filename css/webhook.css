@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: url('../images/background2.jpg');
+}
+
+#container {
+    margin-top: 80px;
+    margin: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 25px;
+}
+
+.center-align {
+    text-align: center;
+}
+
+p {
+    font-size: 27px;
+}
+
+a, a:visited {
+    color: rgb(129, 129, 129)
+}
+
+#link, #username, #content, #avatar {
+    font-size: 25px;
+    background-color: #4e4e4e;
+    width: 75%;
+    padding: 20px;
+    border: 2px solid #000000c9;
+}
+
+#btn {
+    width: 10%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 15px;
+    border: 2px solid #000000c9;
+}
