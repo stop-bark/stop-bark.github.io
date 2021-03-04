@@ -55,4 +55,5 @@ body {
 
 #Social > a > i:hover {
     color: hsl(36deg 10% 90%);
+    transform: scale(1.5);
 }
