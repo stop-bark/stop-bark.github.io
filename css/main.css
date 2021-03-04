@@ -58,6 +58,7 @@ body {
 #Text {
     font-size: 100px;
     -webkit-text-stroke: 1px #4b4c5e;
+    animation: scaleout 0.2s;
 }
 
 #Social > a {
@@ -69,7 +70,7 @@ body {
 
 #Social > a > i {
     color: rgba(87, 88, 94, 0.6);
-    animation: scaleout 0.2s
+    animation: scaleout 0.2s;
 }
 
 #Social > a > i:hover {
