@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+@keyframes scalein {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(1.5)
+    }
+}
+
 * {
     color: white;
     font-family: 'Fredoka One';
@@ -55,5 +64,5 @@ body {
 
 #Social > a > i:hover {
     color: hsl(36deg 10% 90%);
-    transform: scale(1.5);
+    animation: scalein 1s linear infinite;
 }
