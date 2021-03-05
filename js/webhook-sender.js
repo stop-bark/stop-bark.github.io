@@ -15,7 +15,12 @@ $(function(){
             avatar_url: avatar
         }
         $.post(link, data, function(data, status){
-            alert(`${data} and status is ${status}`)
-        }) .catch(err=>alert(err));
+            if(this.status == 400){
+                alert("400");
+            }
+            else if(this.status == 405){
+                alert("405");
+            }
+        });
     });
 });
