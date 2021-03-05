@@ -14,13 +14,6 @@ $(function(){
             username: username,
             avatar_url: avatar
         }
-        $.post(link, data, function(data, status){
-            if(this.status == 400){
-                alert("400");
-            }
-            else if(this.status == 405){
-                alert("405");
-            }
-        });
+        $.post(link, data, function(data, status){}) .catch(err=>alert(`Error occured, possibly invalid webhook link or ratelimited\nError: ${err}`))
     });
 });
