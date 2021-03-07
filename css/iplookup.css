@@ -6,12 +6,8 @@
     padding: 0;
 }
 
-#particle-div {
-    margin: 0 auto;
-}
-
 body {
-    background: #312a2b;
+    background: url('../images/background2.jpg');
 }
 
 #container {
