@@ -12,8 +12,12 @@
 	user-select: none;
 }
 
+#particle-div {
+    margin: 0 auto;
+}
+
 body {
-    background: url('../images/background2.jpg');
+    background: #312a2b;
 }
 
 #container {
