@@ -3,6 +3,8 @@
 
 <head>
     <script src="https://kit.fontawesome.com/1696f1f330.js" crossorigin="anonymous"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/jquery.js"></script>
     <link rel='stylesheet' href='./css/main.css'>
     <title> =- stop bark! -=</title>
     <meta property="og:site_name" content="Stop bark!">
@@ -14,8 +16,9 @@
 </head>
 
 <body>
+    <div id="particle-div"></div>
     <div class='contentsCenter'>
-        <script src='../js/title.js'> </script>
+        <script src='./js/title.js'> </script>
         <h1 id='Text'>imagine</h1>
         <div id='Social'>
             <a href="https://discord.gg/r6kjQnG9jX" target='_blank'>
@@ -34,6 +37,11 @@
     <audio id="playAudio">
         <source src="./assets/till-the-sun-comes.mp3">
     </audio>
+    <script>
+        $('document').ready(function() {
+            particlesJS.load('particle-div', './assets/particles.json')
+        })
+    </script>
     <script>
         var audio = document.getElementById('playAudio');
         audio.volume = 0.5;

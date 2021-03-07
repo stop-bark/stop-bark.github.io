@@ -31,12 +31,23 @@
 	user-select: none;
 }
 
+#particle-div {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+}
+
+/* 
 body {
     background: url('../images/background2.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+body {
+    background: #312a2b;
 }
 
 #webhook-sender {
