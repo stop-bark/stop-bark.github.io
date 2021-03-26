@@ -1,0 +1,67 @@
+.body-3ND3kc {height: 240px;}
+
+/* imagine#0403 */
+
+.avatar-1BDn8e[src*="287633455955836929"] + h2.header-23xsNx {
+    --tag-text: 'nigger';
+    --tag-bg1: #a980ee;
+}
+
+.avatar-1BDn8e[src*="287633455955836929"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
+
+/* Dart#0069*/
+
+.avatar-1BDn8e[src*="458569144204525588"] + h2.header-23xsNx {
+    --tag-text: 'sped';
+    --tag-bg1: #ff0000;
+}
+
+.avatar-1BDn8e[src*="458569144204525588"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
+
+/* scuzzzy#0253*/
+
+.avatar-1BDn8e[src*="757415299195863120"] + h2.header-23xsNx {
+    --tag-text: 'drug dealer';
+    --tag-bg1: #ffffff;
+}
+
+.avatar-1BDn8e[src*="757415299195863120"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
