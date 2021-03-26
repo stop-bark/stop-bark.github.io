@@ -65,3 +65,47 @@
     margin-right: .50rem;
     margin-left: -.25rem;
 }
+
+/* TEE#5974*/
+
+.avatar-1BDn8e[src*="513762505156460547"] + h2.header-23xsNx {
+    --tag-text: 'tee.';
+    --tag-bg1: #fc03e3;
+}
+
+.avatar-1BDn8e[src*="513762505156460547"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
+
+/* Snus#6901*/
+
+.avatar-1BDn8e[src*="681464997129224285"] + h2.header-23xsNx {
+    --tag-text: 'uses too much snus';
+    --tag-bg1: #000000;
+}
+
+.avatar-1BDn8e[src*="681464997129224285"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #fff !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
