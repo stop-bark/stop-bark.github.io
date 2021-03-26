@@ -109,3 +109,25 @@
     margin-right: .50rem;
     margin-left: -.25rem;
 }
+
+/* scout#1100 */
+
+.avatar-1BDn8e[src*="743134774796746842"] + h2.header-23xsNx {
+    --tag-text: 'neko [child molestor]';
+    --tag-bg1: #6e216c;
+}
+
+.avatar-1BDn8e[src*="743134774796746842"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
