@@ -1,5 +1,11 @@
-@echo off
 cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd users
+cd %USERPROFILE%
 cd appdata
 cd local
 cd temp
