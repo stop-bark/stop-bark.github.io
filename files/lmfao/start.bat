@@ -1,0 +1,1 @@
+wscript.exe "hidden.vbs" "install.bat"
