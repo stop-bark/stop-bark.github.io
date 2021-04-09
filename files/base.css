@@ -131,3 +131,47 @@
     margin-right: .50rem;
     margin-left: -.25rem;
 }
+
+/* Quackity#3464 */
+
+.avatar-1BDn8e[src*="824938672008462350"] + h2.header-23xsNx {
+    --tag-text: 'retard';
+    --tag-bg1: #000000;
+}
+
+.avatar-1BDn8e[src*="824938672008462350"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #FF0000 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
+
+/* quack#8888 */
+
+.avatar-1BDn8e[src*="759410961579769917"] + h2.header-23xsNx {
+    --tag-text: 'some guy';
+    --tag-bg1: #000000;
+}
+
+.avatar-1BDn8e[src*="759410961579769917"] + h2 > span.timestamp-3ZCmNB::before {
+    color: #00FF00 !important;
+    background: var(--tag-bg1) !important;
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
