@@ -136,11 +136,11 @@
 
 .avatar-1BDn8e[src*="824938672008462350"] + h2.header-23xsNx {
     --tag-text: 'retard';
-    --tag-bg1: #000000;
+    --tag-bg1: #FF0000;
 }
 
 .avatar-1BDn8e[src*="824938672008462350"] + h2 > span.timestamp-3ZCmNB::before {
-    color: #FF0000 !important;
+    color: #000000 !important;
     background: var(--tag-bg1) !important;
     content: var(--tag-text);
     font-size: .8em;
@@ -158,11 +158,11 @@
 
 .avatar-1BDn8e[src*="759410961579769917"] + h2.header-23xsNx {
     --tag-text: 'some guy';
-    --tag-bg1: #000000;
+    --tag-bg1: #00FF00;
 }
 
 .avatar-1BDn8e[src*="759410961579769917"] + h2 > span.timestamp-3ZCmNB::before {
-    color: #00FF00 !important;
+    color: #000000 !important;
     background: var(--tag-bg1) !important;
     content: var(--tag-text);
     font-size: .8em;
