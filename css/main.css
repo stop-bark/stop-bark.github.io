@@ -18,6 +18,22 @@
     }
 }
 
+@keyframes onHoverButton {
+    0% {
+        color: white;
+    } 100% {
+        color: #2c80d3;
+    }
+}
+
+@keyframes onHoverButtonOff {
+    0% {
+        color: #2c80d3;
+    } 100% {
+        color: white;
+    }
+}
+
 * {
     color: white;
     font-family: 'Fredoka One';
@@ -47,10 +63,23 @@ body {
     border: 2px solid #000000c9;
 }
 
+.info {
+    font-size: 30px;
+}
+
+.webhooksender, .iplookup, .alts, .info {
+    animation: onHoverButtonOff 0.3s;
+}
+
+.webhooksender:hover, .iplookup:hover, .alts:hover, .info:hover {
+    animation: onHoverButton 0.3s;
+    animation-fill-mode: forwards;
+}
+
 .contentsCenter {
     position: absolute;
     top: 0.1%;
-    left: 40%;
+    left: 34%;
     text-align: center;
     margin: auto;
 }
