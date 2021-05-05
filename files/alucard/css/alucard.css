@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased!important;
+    text-rendering: optimizeLegibility!important;
+}
+
+body {
+    font-family: "Roboto", sans-serif !important;
+    background-color: black !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;    
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+	border-width: 0;
+	-webkit-box-shadow: 0 0;
+	box-shadow: 0 0;
+	background-color: transparent;
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%)
+}
+
+.button {
+    padding: 9px 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white !important;
+    text-shadow: none !important;
+    transition: color 0.2s ease;
+}
+
+.button:hover {
+    border-color: #3393FF !important;
+    color: #3393FF !important;
+    text-decoration: none;
+}
+
+.middleContent {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: #fafafa;
+}
+
+.navbar {
+	margin: 0 auto!important;
+	padding-top: 20px;
+	width: 60%!important
+}
+
+.navbar li {
+    padding: 10px 10px;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.747);
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation {
+    padding-top: 13px;
+}
+
+/* unvisited link */
+footer a:link {
+    color: white;
+}
+
+/* visited link */
+footer a:visited {
+    color: white;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* selected link */
+footer a:active {
+    color: white;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discord-blurple {
+    background-color: #7289DA !important;
+}
+
+.buttonfix {
+    margin: 4px;
+}
+
+nav {
+    margin-bottom: 6%;
+}
+
+footer {
+    margin-top: 8%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width:992px){
+    nav {
+        margin-bottom: 1%;
+    }
+    footer {
+        margin-top: 1%;
+    }
+}

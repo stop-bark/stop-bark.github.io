@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Alucard Selfbot">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="img/Favicon.png">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/alucard.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6bfbd8fad0.js" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<title>Alucard - Discord Selfbot</title>
+
+<body class="black white-text">
+    <script>
+        $(document).ready(function() {
+            $('.particles').particleground({
+                dotColor: '#3393FF',
+                lineColor: '#3393FF',
+                density: "400000"
+            });
+        })
+    </script>
+    <div class="navigation">
+        <div class="navbar transparent">
+            <a href="/"><img alt="Alucard" src="img/ALUCARD-RESIZED.png" width="240"></a>
+            <ul class="nav navbar-nav navbar-right">
+                <div class="row">
+                    <li><a href="/" class="button">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="/commands" class="button">Commands <i class="fas fa-cogs"></i></a></li>
+                    <li><a href="https://discord.gg/BGu62Ha" class="button">Support <i class="fab fa-discord"></i></a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="particles"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<!-- Commands Table -->
+
+<main>
+    <div class="container">
+        <h3 class="light">General Commands [36]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>help</td>
+                    <td>Displays this help menu</td>
+                </tr>
+                <td>av (user)</td>
+                <td>Displays the profile picture of the mentioned user</td>
+                <tr>
+                    <td>revav (user)</td>
+                    <td>Reverse avatar the mentioned user profile picture</td>
+                </tr>
+                <td>whois (user)</td>
+                <td>Displays discord information of the mentioned user</td>
+                <tr>
+                    <td>role-hexcode (role)</td>
+                    <td>Displays the hexcode of the specified role</td>
+                </tr>
+                <td>guildicon</td>
+                <td>Display guild icon</td>
+                <tr>
+                    <td>roleinfo (role)</td>
+                    <td>Display some info about the specified role</td>
+                </tr>
+                <td>cls</td>
+                <td>Clears your console fully</td>
+                <tr>
+                    <td>logout</td>
+                    <td>Logs you out the selfbot</td>
+                </tr>
+                <td>dm (user) (message)</td>
+                <td>Sends a message to the specified user</td>
+                <tr>
+                    <td>everyone</td>
+                    <td>Glitched way to mention everyone in a server</td>
+                </tr>
+                <td>empty</td>
+                <td>Sends a empty message</td>
+                <tr>
+                    <td>get-hwid</td>
+                    <td>Prints your hwid in the console</td>
+                </tr>
+                <td>secret (message)</td>
+                <td>Returns the message but hidden ||hidden||</td>
+                <tr>
+                    <td>bold (message)</td>
+                    <td>Returns the message but **bold**</td>
+                </tr>
+                <td>unflip</td>
+                <td>Sends: ┬─┬ ノ( ゜-゜ノ)</td>
+                <tr>
+                    <td>tableflip</td>
+                    <td>Sends: (╯°□°）╯︵ ┻━┻</td>
+                </tr>
+                <td>lenny</td>
+                <td>Sends: ( ͡° ͜ʖ ͡°)</td>
+                <tr>
+                    <td>shrug</td>
+                    <td>Sends: ¯\_(ツ)_/¯</td>
+                </tr>
+                <td>reverse (message)</td>
+                <td>Reverses ur message
+                    <tr>
+                        <td>ascii (message)</td>
+                        <td>Makes your message ascii/fancy</td>
+                    </tr>
+                    <td>read</td>
+                    <td>Marks all your messages as read, except DM</td>
+                    <tr>
+                        <td>group-leaver</td>
+                        <td>Leaves all the groups you're in</td>
+                    </tr>
+                    <td>purge (amount)</td>
+                    <td>Deletes your messages based on the amount you specify
+                        <td>
+                            <tr>
+                                <td>uptime</td>
+                                <td>Shows how long the selfbot has been online and working</td>
+                            </tr>
+                            <td>hastebin (message)</td>
+                            <td>Saves your text/code to hastebin</td>
+                            <tr>
+                                <td>first-message</td>
+                                <td>Get the first message in that channel</td>
+                            </tr>
+                            <td>abc</td>
+                            <td>Sends the whole abecedary in a single message</td>
+                            <tr>
+                                <td>devowel (message)</td>
+                                <td>Devowels your message</td>
+                            </tr>
+                            <td>1337-speak (message)</td>
+                            <td>Translates your message to 1337 language</td>
+                            <tr>
+                                <td>combine (name1) (name2)</td>
+                                <td>Combines the two names together</td>
+                            </tr>
+                            <td>pingweb (website)</td>
+                            <td>Pings a website in order to check if its working or not (ie: !pingweb https://google.com)</td>
+                            <tr>
+                                <td>spam (amount) (message)</td>
+                                <td>Sends the specified message that amount of times</td>
+                            </tr>
+                            <td>clear</td>
+                            <td>Spam the chat with invisible messages</td>
+                            <tr>
+                                <td>tts (message)</td>
+                                <td>Send that message in .wav format, like an audio</td>
+                            </tr>
+                            <td>upper (message)</td>
+                            <td>Make your message CAPS</td>
+                            <tr>
+                                <td>lmgtfy (message)</td>
+                                <td>Use lmgtfy search engine to look-up something</td>
+                            </tr>
+                            <td>genname</td>
+                            <td>Generate a random name based on the server members</td>
+            </tbody>
+        </table>
+        <br>
+        <h3 class="light">NSFW Commands [9]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>lesbian</td>
+                    <td>Random lesbian [Anime]</td>
+                </tr>
+                <td>lewdjeko</td>
+                <td>Random lewd neko [Anime]</td>
+                <tr>
+                    <td>blowjob</td>
+                    <td>Random blowjob [Anime]</td>
+                </tr>
+                <td>tits</td>
+                <td>Random tits [Anime]</td>
+                <tr>
+                    <td>boobs</td>
+                    <td>Random boobs [Anime]</td>
+                </tr>
+                <td>hentai</td>
+                <td>Random hentai [Anime]</td>
+                <tr>
+                    <td>feet</td>
+                    <td>Random feet [Anime]</td>
+                </tr>
+                <td>erofeet</td>
+                <td>Random erotic feet [Anime]</td>
+                <tr>
+                    <td>anal</td>
+                    <td>Random anal [Anime]</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3 class="light">Account Management Commands [12]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>set-pfp (url)</td>
+                    <td>Set the specified url as profile picture [Must have password set in config.json file]</td>
+                </tr>
+                <tr>
+                    <td>btcstream</td>
+                    <td>Stream current btc price</td>
+                </tr>
+                <tr>
+                    <td>pfpsteal (user)</td>
+                    <td>Allows you to steal mentioned user profile picture [Must have password set in config.json file]</td>
+                </tr>
+                <td>blank</td>
+                <td>Turns your name and profile picture blank</td>
+                <tr>
+                    <td>hypesquad (house)</td>
+                    <td>Allows you to change your hypesquad (ie: !hypesquad bravery)</td>
+                </tr>
+                <td>fakenet (type) [name]</td>
+                <td>Allows you to spoof connections in your profile (ie: !fakenet skype Alucard)</td>
+                <tr>
+                    <td>steal-all-pfp</td>
+                    <td>Steal all the pfps in the server</td>
+                </tr>
+                <td>stream (message)</td>
+                <td>Stream that message in your profile</td>
+                <tr>
+                    <td>watching (message)</td>
+                    <td>Add a watching status with that message in your profile</td>
+                </tr>
+                <td>listening (message)</td>
+                <td>Add a listening status with that message in your profile</td>
+                <tr>
+                    <td>game (message)</td>
+                    <td>Add a game status with that message in your profile</td>
+                </tr>
+                <td>masscon (type) (amount) (name)
+                    <td>Add a big amount of connections to your profile (ie: !masscon skype 5 ALUCARD</td>
+
+            </tbody>
+        </table>
+        <br>
+        <h3 class="light">Fun &#38; Social Commands [18]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>fox</td>
+                    <td>Random fox image</td>
+                </tr>
+                <td>dog</td>
+                <td>Random dog image</td>
+                <tr>
+                    <td>cat</td>
+                    <td>Random cat image [Must have cat api key set in config.json file]</td>
+                </tr>
+                <td>minesweeper</td>
+                <td>Play minesweeper in the discord chat</td>
+                <tr>
+                    <td>dick (user)</td>
+                    <td>Display the mentioned user dick size</td>
+                </tr>
+                <td>rainbow (role)</td>
+                <td>Cycle colors in the role you specify</td>
+                <tr>
+                    <td>8ball (question)</td>
+                    <td>Answers your question</td>
+                </tr>
+                <td>joke</td>
+                <td>Drops a random joke in the chat</td>
+                <tr>
+                    <td>slot</td>
+                    <td>Play slot machine in the discord chat</td>
+                </tr>
+                <td>topic</td>
+                <td>Start a random topic to keep the chat going</td>
+                <tr>
+                    <td>wyr</td>
+                    <td>Start a 'what would you rather' topic in the chat</td>
+                </tr>
+                <td>feed (user)</td>
+                <td>Feed the mentioned user</td>
+                <tr>
+                    <td>tickle (user)</td>
+                    <td>Tickle the mentioned user</td>
+                </tr>
+                <td>slap (user)</td>
+                <td>Slap the mentioned user</td>
+                <tr>
+                    <td>hug (user)</td>
+                    <td>Hug the mentioned user</td>
+                    <tr>
+                        <td>smug (user)</td>
+                        <td>Smug at the mentioned user</td>
+                    </tr>
+                    <td>pat (user)</td>
+                    <td>Pat the mentioned user</td>
+                    <tr>
+                        <td>kiss (user)</td>
+                        <td>Kiss the mentioned user</td>
+            </tbody>
+        </table>
+        <br>
+        <h3 class="light">Hacking Commands [9]</h3>
+        <table>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>tokeninfo (token)</td>
+                    <td>Display various information about the token</td>
+                </tr>
+                <td>tokenfuck (token)</td>
+                <td>Crash, glitch screen of a token, all in discord</td>
+                <tr>
+                    <td>geoip (ip)</td>
+                    <td>Display various information about the IP</td>
+                </tr>
+                <td>ebay-view (url) (views)</td>
+                <td>Send views to a ebay product (ie: !ebay-view https://www.ebay.es/itm/XXXXXX 100</td>
+                <tr>
+                    <td>gmail-bomb</td>
+                    <td>Spam a gmail [Information is inserted via console]</td>
+                </tr>
+                <td>nitro</td>
+                <td>Generate a random nitro code</td>
+                <tr>
+                    <td>proxies</td>
+                    <td>Scraps HTTP/HTTPS/SOCKS4/SOCKS5 proxies</td>
+                </tr>
+                <td>address (text)</td>
+                <td>Generates fake address based on the text you specify</td>
+                <tr>
+                    <td>masslogin (choice)</td>
+                    <td>Allows you to mass-login in bot/user tokens [Choices can be: user and bot]</td>
+                </tr>
+        </table>
+        <br>
+        <h3 class="light">Cryptocurrency Commands [2]</h3>
+        <table>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>btc</td>
+                        <td>Display current Bitcoin price
+                    </tr>
+                    <td>eth</td>
+                    <td>Display current Ethereum price</td>
+                </thead>
+        </table>
+        <br>
+        <h3 class="light">Encryption &#38; Decryption Commands [2]</h3>
+        <table>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                    <td>encode (string)</td>
+                    <td>Encode a string to base64 ascii</td>
+                    <tr>
+                        <td>decode (string)</td>
+                        <td>Decode a string from base64 to regular text</td>
+                    </tr>
+                </thead>
+        </table>
+        <br>
+        <h3 class="light">Util Commands [7]</h3>
+        <table>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>bitly (link)</td>
+                        <td>Shorten ur link using bitly [Must have bitly api key set in config.json file]</td>
+                    </tr>
+                    <td>tinyurl (link)</td>
+                    <td>Shorten ur link using tinyurl</td>
+                    <tr>
+                        <td>weather (city)</td>
+                        <td>Lookup weather for the specified city</td>
+                    </tr>
+                    <td>backup-f</td>
+                    <td>Backup your friends name and discrim</td>
+                    <tr>
+                        <td>auto-bump (channel id)</td>
+                        <td>Automatically bump server to disboard.org [Needs the Disboard to be in the server]</td>
+                    </tr>
+                    <td>mac (mac)</td>
+                    <td>Lookup a bit of info about a MAC (ie: !mac xx:xx:xx:xx:xx:xx)</td>
+                    <tr>
+                        <td>copy</td>
+                        <td>Copies guild channels, categories, voice channels and makes them in a new one</td>
+                    </tr>
+                </thead>
+        </table>
+        <br>
+        <h3 class="light">Raiding Commands [9]</h3>
+        <table>
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>destroy</td>
+                        <td>Ban, delete roles, delete channels, edit guild info, mass create channels All in one!</td>
+                    </tr>
+                    <td>dmall (messsage)</td>
+                    <td>Messages every user in that guild with a sleep time of 10 seconds for every user [Might get you disabled]</td>
+                    <tr>
+                        <td>massban</td>
+                        <td>Ban all the users in that guild</td>
+                    </tr>
+                    <td>masskick</td>
+                    <td>Kick all the users in that guild</td>
+                    <tr>
+                        <td>massrole</td>
+                        <td>Mass create roles</td>
+                    </tr>
+                    <td>masschannel</td>
+                    <td>Mass create channels</td>
+                    <tr>
+                        <td>delroles</td>
+                        <td>Delete all the roles</td>
+                    </tr>
+                    <td>delchannels</td>
+                    <td>Delete all the channels</td>
+                    <tr>
+                        <td>massunban</td>
+                        <td>Unban every member</td>
+                    </tr>
+                </thead>
+        </table>
+    </div>
+</main>
+
+</html>
